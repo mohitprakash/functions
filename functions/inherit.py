@@ -9,3 +9,12 @@ class Person:
 
 x = Person("John","Doe")
 x.printName()
+
+class Emp(Person):
+    def Print(self):
+        print("Emp class called")
+
+y = Emp("Mohit","Prakash")
+y.printName()
+
+y.Print()
