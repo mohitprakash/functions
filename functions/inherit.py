@@ -13,7 +13,7 @@ x.printName()
 
 class Emp(Person):
     def Print(self):
-        print("Emp class called")
+        print("Emp class calling")
 
 
 y = Emp("Mohit", "Prakash")
