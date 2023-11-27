@@ -7,14 +7,16 @@ class Person:
         print(self.firstname, self.lastname)
 
 
-x = Person("John","Doe")
+x = Person("John", "Doe")
 x.printName()
+
 
 class Emp(Person):
     def Print(self):
         print("Emp class called")
 
-y = Emp("Mohit","Prakash")
+
+y = Emp("Mohit", "Prakash")
 y.printName()
 
 y.Print()
