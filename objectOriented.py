@@ -24,3 +24,5 @@ print(car.wheels)
 
 c2 = car("AUDI", "SUV")
 print(c2.wheels)
+
+print("Hello Object Oriented")
